@@ -1,0 +1,31 @@
+coav_review:
+    resource: "@CoavBundle/Controller/ReviewController.php"
+    type:     annotation
+
+coav_user:
+    resource: "@CoavBundle/Controller/UserController.php"
+    type:     annotation
+
+coav_reservation:
+    resource: "@CoavBundle/Controller/ReservationController.php"
+    type:     annotation
+
+coav_plane_model:
+    resource: "@CoavBundle/Controller/PlaneModelController.php"
+    type:     annotation
+
+coav_terrain:
+    resource: "@CoavBundle/Controller/TerrainController.php"
+    type:     annotation
+
+coav_flight:
+    resource: "@CoavBundle/Controller/FlightController.php"
+    type:     annotation
+
+coav:
+    resource: "@CoavBundle/Resources/config/routing.yml"
+    prefix:   /
+
+wcs_coav_listing:
+            resource: "@CoavBundle/Controller/ListingController.php"
+            type:     annotation

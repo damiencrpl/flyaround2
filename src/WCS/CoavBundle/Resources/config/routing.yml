@@ -1,0 +1,3 @@
+coav_homepage:
+    path:     /
+    defaults: { _controller: CoavBundle:Default:index }
