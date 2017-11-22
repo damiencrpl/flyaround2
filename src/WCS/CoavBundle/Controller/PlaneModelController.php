@@ -123,7 +123,7 @@ class PlaneModelController extends Controller
      *
      * @param PlaneModel $planeModel The planeModel entity
      *
-     * @return \Symfony\Component\Form\Form The form
+     * @return \Symfony\Component\Form\FormInterface
      */
     private function createDeleteForm(PlaneModel $planeModel)
     {

@@ -125,7 +125,7 @@ class ReviewController extends Controller
      *
      * @param Review $review The review entity
      *
-     * @return \Symfony\Component\Form\Form The form
+     * @return \Symfony\Component\Form\FormInterface
      */
     private function createDeleteForm(Review $review)
     {

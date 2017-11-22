@@ -123,7 +123,7 @@ class ReservationController extends Controller
      *
      * @param Reservation $reservation The reservation entity
      *
-     * @return \Symfony\Component\Form\Form The form
+     * @return \Symfony\Component\Form\FormInterface
      */
     private function createDeleteForm(Reservation $reservation)
     {

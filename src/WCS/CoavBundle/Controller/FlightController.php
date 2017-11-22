@@ -123,7 +123,7 @@ class FlightController extends Controller
      *
      * @param Flight $flight The flight entity
      *
-     * @return \Symfony\Component\Form\Form The form
+     * @return \Symfony\Component\Form\FormInterface
      */
     private function createDeleteForm(Flight $flight)
     {

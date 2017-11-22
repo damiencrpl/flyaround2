@@ -123,8 +123,7 @@ class UserController extends Controller
      * Creates a form to delete a user entity.
      *
      * @param User $user The user entity
-     *
-     * @return \Symfony\Component\Form\Form The form
+     * @return \Symfony\Component\Form\FormInterface
      */
     private function createDeleteForm(User $user)
     {

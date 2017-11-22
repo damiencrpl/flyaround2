@@ -137,7 +137,7 @@ class Reservation
     /**
      * Get passengers
      *
-     * @return int
+     * @return \Doctrine\Common\Collections\ArrayCollection
      */
     public function getPassengers()
     {
