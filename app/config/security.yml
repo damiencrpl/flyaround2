@@ -25,7 +25,7 @@ security:
 
     access_control:
         - { path: ^/flight, role: ROLE_USER }
-        - { path: ^/planeModel, role: ROLE_ADMIN }
+        - { path: ^/planemodel, role: ROLE_ADMIN }
         - { path: ^/reservation, role: ROLE_USER }
         - { path: ^/review, role: ROLE_USER }
         - { path: ^/terrain, role: ROLE_ADMIN }

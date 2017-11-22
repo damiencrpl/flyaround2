@@ -16,8 +16,7 @@ class RegistrationType extends AbstractType
             ->add('phoneNumber')
             ->add('birthDate')
             ->add('isACertifiedPilot')
-            ->add('isActive')
-            ->add('roles');
+            ->add('isActive');
     }
 
     public function getParent()
